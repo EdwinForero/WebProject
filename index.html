@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador de texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador/Desencriptador de texto</h1>
+        <input type="text" id="inputText" placeholder="Enter text">
+        <p id="message" style="color: red;"></p>
+        <button onclick="encryptText()">Encriptar</button>
+        <button onclick="decryptText()">Desencriptar</button>
+        <div id="output" class="output">
+            <p id="outputText"></p>
+            <button onclick="hideOutput()">Ocultar</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Edwin Forero - 2024 &copy;</p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
